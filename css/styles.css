@@ -1,0 +1,189 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-family: Barlow Condensed;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 39.6px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 64px;
+    margin-bottom: 16px;
+    padding: 0 16px;
+}
+
+p{
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 0 16px;
+}
+
+a{
+    font-family: Barlow Condensed;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+span{
+    font-family: Barlow Condensed;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.coctails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.coctail-card{
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 64px;
+}
+
+.coctail-img{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+
+.coctail{
+    width: 304px;
+    height: 304px;
+    border-radius: 50%;
+}
+
+
+.graphic1{
+    width: 226.02px;
+    height: 213.69px;
+    position: relative;
+    top: -41.6px; 
+    right: 415.98px;
+}
+
+
+.graphic2{
+    width: 196.53px;
+    height: 159.03px;
+    position: relative;
+    top: -27.02px;
+    right: 147.74px;
+    z-index: -1;
+}
+
+.graphic3{
+    width: 196.53px;
+    height: 159.03px;
+    position: relative;
+    top: 199.29px;
+    right: 577.34px;
+    z-index: -1;
+}
+
+
+.graphic4{
+    width: 196.53px;
+    height: 159.03px;;
+    position: relative;
+    top: 195.91px;
+    right: 146.06px;
+    z-index: -1;
+}
+
+
+@media screen and (min-width: 1440px){
+    h1{
+        font-size: 54px;
+        line-height: 59.4px;
+        padding: 0;
+    }
+
+    p{
+        font-size: 24px;
+        line-height: 31.2px;
+        padding: 0;
+    }
+
+    a{
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    span{
+        font-size: 36px;
+        line-height: 39.6px;
+        width: 360px;
+    }
+
+    .coctails{
+        margin-top: 67px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .coctail-card{
+        width: 360px;
+        margin-bottom: 0;
+    }
+    
+    .coctail{
+        width: 360px;
+        height: 360px;
+    }
+    
+    .graphic1{
+        width: 267.66px;
+        height: 253.05px;
+        top: -48.74px;
+        right: 492.61px;
+    }
+    
+    .graphic2{
+        width: 232.73px;
+        height: 188.33px;
+        top: -32px;
+        right: 174.23px;
+    }
+    
+    .graphic3{
+        width: 232.73px;
+        height: 188.33px;
+        top: 236px;
+        right: 683.69px;
+    }
+    
+    .graphic4{
+        width: 232.73px;
+        height: 188.33px;
+        top: 232px;
+        right: 172.96px;
+    }
+    
+}
